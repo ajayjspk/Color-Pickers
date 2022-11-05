@@ -1,0 +1,47 @@
+#box{
+    justify-content: center;
+    width: 80px;
+    height: 40px;
+    position: relative;
+    justify-content: center;
+    border-radius: 20px;
+    left: 50px;
+
+}
+.box1{
+    background-color: brown;
+    position: absolute;
+    width:60%;
+    right: 20%;
+    top: 30%;
+    border-radius: 5px;
+    padding: 30px;
+    font-weight: bold;
+    font-size: large;
+
+}
+input[type="range"]{
+    color: black;
+    display: inline-block;
+   width: 80%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+input[type="button"]{
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    font-style: unset;
+    font-weight: bold;
+}
+#ccode{
+    align-items: center;
+}
+#note{
+    font-size: large;
+    color: rgb(113, 0, 107);
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
